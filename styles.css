@@ -26,9 +26,13 @@ body {
 }
 
 form {
-    display: flex;
-    justify-content: space-around ;
     margin-top: 2rem;
+}
+
+#form-flex-container {
+    display: flex;
+    justify-content: left;
+    gap: 4rem;
 }
 
 label {
@@ -37,5 +41,19 @@ label {
 
 input {
     display: block;
+}
+
+button {
+    margin-top: 1rem;
+    background-color: rgb(22, 101, 22);
+    color: white;
+    font-family: inherit;
+    border-radius: 5px;
+    padding: 0.2rem;
+    box-shadow: 2px 2px 2pxpx black;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
