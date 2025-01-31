@@ -2,12 +2,14 @@ body {
     background-color: black;
     display: flex;
     justify-content: center;
+    font-family: "Quantico", sans-serif;
 }
 
 #main-container {
     width: 60%;
     height: 100vh;
     background-color: white;
+    display: flex;
 }
 
 #background-image {
@@ -17,3 +19,9 @@ body {
     background-size: cover;
     background-position: center;
 }
+
+#form-container {
+    width: 60%;
+    padding: 2rem;
+}
+
